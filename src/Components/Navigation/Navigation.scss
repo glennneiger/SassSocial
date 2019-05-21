@@ -1,0 +1,30 @@
+@import '../../App.scss';
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    // Multiplier of whatever the HTML element font size is. 
+    padding: 0.7rem 2rem; 
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+    border-bottom: 1px solid $primary-color;
+    opacity: 9;
+
+    ul {
+        display: flex;
+
+    }
+
+    a {
+        padding: 0.45rem;
+        margin: 0 0.25rem;
+        color: #fff;
+
+        &:hover {
+            color: $primary-color;
+        }
+    }
+}
