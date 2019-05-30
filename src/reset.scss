@@ -18,7 +18,7 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 1rem;
 	vertical-align: baseline;
-  	box-sizing: border-box;
+  box-sizing: border-box;
 	line-height: 1.6;
 	font-family: 'Raleway', sans-serif;
 }
@@ -41,6 +41,7 @@ ul {
 img {
 	width: 100%;
 }
+
 
 // REM Units: 1 Rem is equal to the default font size of the HTML root tag, which by default is 16px. 
 // Can be manually changed. 
